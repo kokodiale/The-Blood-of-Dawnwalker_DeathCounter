@@ -174,12 +174,6 @@ Teksty zmienisz w `overlay/index.html`:
 <div class="title">DEATH TOLL</div>
 ```
 
-## 8. GitHub
-
-Możesz wrzucić cały folder jako zwykłe repozytorium GitHub.
-
-**Nie włączaj GitHub Pages jako źródła w OBS dla licznika na żywo.** Strona działająca na `github.io` nie ma dostępu do lokalnego `counter.txt`. Do OBS używaj lokalnego adresu `http://127.0.0.1:8765`.
-
 ## Bezpieczeństwo
 
 Serwer nasłuchuje wyłącznie na `127.0.0.1`, więc nie wystawia licznika do sieci lokalnej ani Internetu.
