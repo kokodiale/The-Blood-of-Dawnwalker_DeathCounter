@@ -1,0 +1,5 @@
+{
+  "port": 8765,
+  "counter_file": "",
+  "refresh_ms": 250
+}

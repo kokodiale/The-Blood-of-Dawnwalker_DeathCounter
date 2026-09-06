@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140" role="img" aria-label="Gothic blood sigil">
+  <defs>
+    <linearGradient id="iron" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0d7c8"/>
+      <stop offset="0.48" stop-color="#7c706a"/>
+      <stop offset="1" stop-color="#2f292a"/>
+    </linearGradient>
+    <linearGradient id="blood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c14a4d"/>
+      <stop offset="0.52" stop-color="#8d1f2a"/>
+      <stop offset="1" stop-color="#3f0c12"/>
+    </linearGradient>
+  </defs>
+  <path d="M50 5 L58 27 L78 19 L68 41 L92 46 L70 57 L84 76 L60 70 L50 101 L40 70 L16 76 L30 57 L8 46 L32 41 L22 19 L42 27 Z"
+        fill="none" stroke="url(#iron)" stroke-width="2.4" stroke-linejoin="miter" opacity=".78"/>
+  <path d="M50 33 C43 46 31 62 31 78 C31 92 39 102 50 102 C61 102 69 92 69 78 C69 62 57 46 50 33 Z"
+        fill="url(#blood)" stroke="#d4c9ba" stroke-opacity=".46" stroke-width="1.4"/>
+  <path d="M50 54 C47 61 42 69 42 76 C42 82 45 87 50 87" fill="none" stroke="#eadfd2" stroke-opacity=".28" stroke-width="2" stroke-linecap="round"/>
+  <path d="M50 102 L50 131 M42 122 L50 131 L58 122" fill="none" stroke="url(#iron)" stroke-width="2" stroke-linecap="square"/>
+  <circle cx="50" cy="107" r="3" fill="#8d1f2a" stroke="#c2b6aa" stroke-opacity=".6"/>
+</svg>

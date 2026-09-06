@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dawnwalker Death Toll</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="stage" aria-label="Death counter overlay">
+    <section class="counter-card" id="counterCard">
+      <div class="mist mist-a"></div>
+      <div class="mist mist-b"></div>
+      <div class="grain"></div>
+
+      <div class="frame frame-outer"></div>
+      <div class="frame frame-inner"></div>
+
+      <div class="corner corner-tl"></div>
+      <div class="corner corner-tr"></div>
+      <div class="corner corner-bl"></div>
+      <div class="corner corner-br"></div>
+
+      <div class="sigil-wrap" aria-hidden="true">
+        <img src="/assets/blood-sigil.svg" class="sigil" alt="" />
+      </div>
+
+      <div class="copy">
+        <div class="eyebrow">THE BLOOD REMEMBERS</div>
+        <div class="title">DEATH TOLL</div>
+        <div class="divider">
+          <span></span><i></i><span></span>
+        </div>
+        <div class="count-wrap">
+          <span class="count" id="deathCount">0</span>
+          <span class="plus-one" id="plusOne">+1</span>
+        </div>
+      </div>
+
+      <div class="blood-line" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
